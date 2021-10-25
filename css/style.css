@@ -1,0 +1,759 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content-container {
+    background-color: black;
+    width: 1150px;
+    height: auto;
+    color: #fff;
+}
+.box-content-logo .header-logo .content H4{
+    color: burlywood;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.header-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box-content-logo .header-logo .content{
+    width: 50%;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.logo-elg {
+    width: 20%;
+    height: 20%;
+}
+.text {
+    width: 20%;
+    padding: 0;
+    position: absolute;
+    z-index: 5000;
+    margin-left: 30px;
+    margin-top: 150px;
+}
+
+
+.logo-racing{
+    width: 550px;
+    height: auto;
+    color: #fff;
+
+}
+.box-content-product .logo-elg{
+    width: 200px;
+}
+
+.content-container section{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.box-content-product{
+    display: flex;
+    flex-direction: column;
+  
+}
+.box-content-product .cadeira{
+    width: 1000px;
+}
+.box-container-product .cadeira-2-box {
+    width: 35%;
+    height: 35%;
+}
+.box-container-product .cadeira-2-1-box {
+    width: 35%;
+    height: 35%;
+}
+.box-container-product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box-content-logo .text > h2{
+    font-size: 2rem;
+}
+.text > strong {
+    font-size: 1.2rem;
+}
+.text h3{
+    width: 300px;
+    color: #0074ff;
+    margin: 0;
+    font-size: 2.2rem;
+    font-weight: bold;
+    font-style: italic;
+
+
+}
+.text span p {
+    width: 80%;
+    height: 200px;
+    font-size: 2rem;
+}
+.box-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box-info img{
+    margin: 0 70px;
+    width: 200px;
+
+    margin-bottom: 50px;
+
+}
+.box-info .content{
+    text-align: center;
+}
+.box-info .content p{
+    margin: 0 70px;
+    text-align: center;
+}
+.box-info .content .txt-title{
+   font-size: 1.3rem;
+}
+.box-container{
+    display: flex;
+    width: 100%;
+   
+   
+   
+}
+.box-container img{
+    width: 50%;
+}
+.box-4{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-2{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.box-container span p{
+    width: 50%;
+    height: auto;
+    font-size: 1.3rem;
+    font-weight: 100;
+
+ 
+ 
+
+
+}
+.box-container.box-cadeira-3{
+    margin: 0;
+    width: 100%;
+    height: auto;
+
+}
+.box-container-grau .box-2 .txt{
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+
+.box-container-grau
+.box-1{
+    width: 50%;
+
+}
+.box-container .cadeira-3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+   
+    
+}
+
+
+
+
+.box-container-5 {
+    display: flex;
+    flex-direction: row;
+}
+.box-container-5 .cadeira-5-box {
+    width: 60%;
+    
+}
+.box-container-5 .box-5 .text{
+    margin: 150px 0;
+    padding: 0;
+    font-size: 2rem;
+    width: 100%;
+}
+.box-5{
+    width: 40%;
+    margin-top: 100px;
+}
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ .title-product-footer{
+     width: 70%;
+
+ }
+ .title-product-footer p{
+     text-align: center;
+     margin: 0;
+     padding: 0;
+     font-size: 1.3rem;
+ }
+.img-product-footer .img-product{
+    width: 100%;
+}
+
+
+
+
+footer img{
+    width: 30%;
+    height: 30%;
+
+}
+
+footer{
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+}
+
+@media only screen and (min-width:640px) and (max-width:1000px){
+    .container{
+        margin: 0 auto;
+    }
+    .content-container {
+        width: 100%;
+     
+
+    }
+    .header-logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .box-content-logo .header-logo .content{
+          width: 60%;
+    }
+   
+    .box-content-logo .header-logo .content H4{
+        color: burlywood;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-size: 2rem;
+
+    }
+    .content-container section{
+        margin: 3%;
+    }
+    .logo{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: 0px;
+
+    }
+    .content .logo-product {
+        width: 100%;
+        margin-top: 20px;
+        height: auto;
+
+       
+    }
+    .box-content-product{
+        display: flex;
+        flex-direction: row;
+    }
+    .logo-elg {
+        width: 25%;
+        height: 25%;
+    }
+    .product{
+        width: 100%;
+    
+    }
+    .text{
+        width: 20%;
+        padding: 0;
+        position: absolute;
+        margin-bottom:380px;
+        z-index: 5000;
+        margin-left: 30px;
+      
+     
+    }
+    .box-content-logo .text > h2{
+        width: 130px;
+        font-size: 0.8rem;
+        margin-bottom: 40px;
+        margin-top: 0;
+    }
+    .text > strong {
+        font-size: 1.3rem;
+      
+    }
+    .text h3 {
+        font-size: 2.5rem;
+        width: auto;   
+     }
+     .text span p {
+        width: 100px;
+        height: auto;
+        font-size: 1rem;
+    }
+   
+    .box-content-product .product {
+        width: 100%;
+       
+
+    }
+    .box-info{
+        height: 300px;
+        margin-bottom: 150px;
+    }
+    
+    
+    
+    .box-info .content{
+        width: 30%;
+        height: 40%;
+        margin-inline: auto;
+        margin-bottom: 150px;
+    }
+    .box-info .content img {
+        width: 70%;
+        margin: 0;
+    }
+    .box-info .content .txt-title p{
+        margin: 0;
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: 100;
+    }
+    .box-container {
+        flex-direction: row;
+        width: 100%;
+
+    }
+    .box-container-product{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+    .box-container-product .cadeira-2-box {
+        width: 40%;
+        height: 40%;
+    }
+    .box-container-product .cadeira-2-1-box {
+        width: 50%;
+        height: 50%;
+    }
+    .cadeira-2-box{
+        width: 50%;
+        height: 50%;
+    }
+  
+   
+    .box-container span p {
+        width: 80%;
+        height: auto;
+        font-size: 1.3rem;
+        font-weight: 100;
+       
+       
+      
+    }
+  
+        .box-1 .txt-cadeira{
+
+            margin: 40% 10%;
+           
+          
+
+        }
+      
+       
+        .box-4{
+            height: auto;
+        }
+        .box-4 .txt-product{
+
+            margin: 50% 10%;
+            font-size: 1.3rem;
+            font-weight: 100;
+          
+
+        }
+       
+       
+       
+        footer img{
+            width: 30%;
+            height: 30%;
+
+        }
+        .container-footer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+         .title-product-footer{
+             width: 70%;
+ 
+         }
+         .title-product-footer p{
+             text-align: center;
+             margin: 0;
+             padding: 0;
+             font-size: rem;
+         }
+        .img-product-footer .img-product{
+            width: 100%;
+        }
+
+
+    
+
+    }
+@media only screen and (min-width:320px) and (max-width:640px){
+    .container{
+        margin: 0 auto;
+    }
+    .content-container {
+        width: 100%;
+     
+
+    }
+    .header-logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .box-content-logo .header-logo .content{
+          width: 50%;
+    }
+   
+    .box-content-logo .header-logo .content H4{
+        color: burlywood;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-size: 0.8rem;
+
+    }
+    .content-container section{
+        margin: 3%;
+    }
+    .logo{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: 0px;
+    }
+    .content .logo-product {
+        width: 100%;
+        margin-top: 20px;
+        height: auto;
+
+       
+    }
+    .box-content-product{
+        display: flex;
+        flex-direction: row;
+    }
+    .logo-elg {
+        width: 30%;
+        height: 30%;
+    }
+    .product{
+        width: 100%;
+    
+    }
+    .text{
+        width: 20%;
+        padding: 0;
+        position: absolute;
+        z-index: 5000;
+        margin-left: 30px;
+        padding-bottom: 100px;
+        margin-top: 50px;
+        
+     
+    }
+   
+    .box-content-logo .text > h2{
+        width: 130px;
+        font-size: 0.8rem;
+        margin-bottom: 40px;
+        margin-top: 0;
+    }
+    .text > strong {
+        font-size: 0.9rem;
+      
+    }
+    .text h3 {
+        font-size: 1.5rem;
+        width: auto;   
+     }
+     .text span p {
+        width: 100px;
+        height: auto;
+        font-size: 1rem;
+    }
+   
+    .box-content-product .product {
+        width: 100%;
+       
+
+    }
+    .box-info{
+        height: 200px;
+    }
+    .box-info .content{
+        width: 30%;
+        height: 40%;
+        margin-inline: auto;
+        margin-bottom: 150px;
+    }
+    .box-info .content img {
+        width: 70%;
+        margin: 0;
+    }
+    .box-info .content .txt-title p{
+        margin: 0;
+        text-align: center;
+    }
+    .box-container {
+        flex-direction: row;
+        width: 100%;
+
+    }
+    .box-container-product{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+    .box-container-product .cadeira-2-box {
+        width: 40%;
+        height: 40%;
+    }
+    .box-container-product .cadeira-2-1-box {
+        width: 50%;
+        height: 50%;
+    }
+    .cadeira-2-box{
+        width: 50%;
+        height: 50%;
+    }
+  
+   
+    .box-container span p {
+        width: 80%;
+        height: auto;
+        font-size: 1.3rem;
+        font-weight: 100;
+       
+       
+      
+    }
+  
+        .box-1 .txt-cadeira{
+
+            margin: 40% 10%;
+           
+          
+
+        }
+      
+       
+        .box-4{
+            height: auto;
+        }
+        .box-4 .txt-product{
+
+            margin: 35% 10%;
+            font-size: 1rem;
+          
+
+        }
+       
+       
+       
+        footer img{
+            width: 30%;
+            height: 30%;
+
+        }
+        .container-footer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+         .title-product-footer{
+             width: 70%;
+ 
+         }
+         .title-product-footer p{
+             text-align: center;
+             margin: 0;
+             padding: 0;
+         }
+        .img-product-footer .img-product{
+            width: 100%;
+        }
+}
+
+@media only screen and (min-width:320px) and (max-width:414px){
+       .text{
+        margin-top: 20px;
+         
+       }
+       .box-info .content .txt-title p {
+        font-size: 0.8rem;
+    }
+    .title-product-footer p{
+        font-size: 0.8rem;
+    }
+}
+@media only screen and (min-width: 149px) and (max-width:319px){
+    .content-container{
+        width: 100%;
+    }
+    .content-container section{
+        margin: 0;
+    }
+    .text{
+        margin-left: 10%;
+        margin-top: 0;
+    }
+    .text > strong{
+        font-size: 0.3rem;
+    }
+    .text > strong{
+       font-size: 0.3rem;
+    }
+    .text h3 {
+        width: 50%;
+        font-size: 1rem;
+    }
+    .box-info img{
+        width: 80%;
+        margin: 0;
+    }
+    .box-info .content .txt-title{
+        font-size: 0.5rem;
+    }
+    .box-container img {
+        width: 50%;
+        height: 50%;
+    }
+    .box-container span p {
+        font-size: 0.4rem;
+    }
+    .title-product-footer p {
+       font-size: 0.5rem;
+    }
+    .box-content-logo .header-logo .content H4 {
+        font-size: 0.5rem;
+    }
+    .logo-product{
+        width: 100%;
+        height: auto;
+    }
+    .logo-elg{
+        margin-right: 10%;
+    }
+    .box-info .content p {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 50px) and (max-width:150px){
+    .content-container{
+        width: 100%;
+    }
+    .content-container section{
+        margin: 0;
+    }
+    .text{
+        margin: 0;
+    }
+    .text > strong{
+        font-size: 0.3rem;
+    }
+    .text > strong{
+       font-size: 0.2rem;
+    }
+    .text h3 {
+        width: 30%;
+        font-size: 0.5rem;
+    }
+    .box-info img{
+        width: 100%;
+        margin: 0;
+    }
+    .box-info .content .txt-title{
+        font-size: 0.2rem;
+    }
+    .box-container img {
+        width: 50%;
+        height: 50%;
+    }
+    .box-container span p {
+        font-size: 0.1rem;
+    }
+    .title-product-footer p {
+       font-size: 0.2rem;
+    }
+    .box-content-logo .header-logo .content H4 {
+        font-size: 0.3rem;
+    }
+    .logo-product{
+        width: 100%;
+        height: auto;
+    }
+    .logo-elg{
+        margin-right: 10%;
+    }
+    .box-info .content p {
+        margin: 0;
+    }
+}
